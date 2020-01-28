@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="A simple tip calculator app">
+    <meta name="author" content="Andrew M McCall">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Tip Calculator - Andrew M McCall</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <section>
+<form id="form">
+<fieldset>
+<legend>Tip Calculator</legend>
+<label for="user_bill">Input Bill Amount $:</label>
+<input type="text" id="bill" name="user_bill" placeholder="Bill Amount">
+<label for="user_percentage">Select Tip Percentage: </label>
+<select id="percentage" name="user_percentage">
+<option value="0.05">5%</option>
+<option value="0.10">10%</option>
+<option value="0.15">15%</option>
+<option value="0.20">20%</option>
+<option value="0.25">25%</option>
+</select>
+<label for="user_people">How Many People? </label>
+<input type="text" id="people" name="user_people" placeholder="Number Of People">
+<button type="button" id="submit">Submit</button>
+<button type="reset">Reset</button>
+</fieldset>
+  </form>
+      </section>
+      <section id="tip-info"><section>
+      </div>
+    <script src="tip-calculator.js"></script>
+  </body>
+</html>

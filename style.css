@@ -1,0 +1,11 @@
+html ,body {
+  background: #5bc0eb;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: block;
+  margin: 0;
+  padding: 0;
+}

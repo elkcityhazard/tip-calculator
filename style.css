@@ -41,6 +41,7 @@ html ,body {
 }
 
 #form input, select {
+  display: block;
   margin: 10px auto 10px 20px;
   width: 200px;
 }

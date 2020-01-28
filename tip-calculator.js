@@ -16,6 +16,11 @@ function tipCalculator() {
   var percentageAmt = document.getElementById('percentage').value;
   console.log(percentageAmt);
 
+  // check if service quality selected
+  if (percentageAmt === '') {
+    percentageAmt = .05;
+  };
+
   //check if people have been added
   var peopleAmt = document.getElementById('people').value;
   peopleAmt === '' ? alert('How many people were there?') : peopleAmt;

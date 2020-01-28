@@ -12,23 +12,24 @@
     <div class="wrapper">
       <section>
 <form id="form">
-<fieldset>
-<legend>Tip Calculator</legend>
-<label for="user_bill">Input Bill Amount $:</label>
-<input type="text" id="bill" name="user_bill" placeholder="Bill Amount">
-<label for="user_percentage">Select Tip Percentage: </label>
-<select id="percentage" name="user_percentage">
-<option value="0.05">5%</option>
-<option value="0.10">10%</option>
-<option value="0.15">15%</option>
-<option value="0.20">20%</option>
-<option value="0.25">25%</option>
-</select>
-<label for="user_people">How Many People? </label>
-<input type="text" id="people" name="user_people" placeholder="Number Of People">
-<button type="button" id="submit">Submit</button>
-<button type="reset" id="reset">Reset</button>
-</fieldset>
+  <fieldset>
+    <legend>Tip Calculator</legend>
+      <label for="user_bill">Input Bill Amount $:</label>
+        <input type="text" id="bill" name="user_bill" placeholder="Bill Amount">
+      <label for="user_percentage">Select Tip Percentage: </label>
+        <select id="percentage" name="user_percentage">
+          <option value="" selected>Quality Of Service</option>
+          <option value="0.05">&#9733;</option>
+          <option value="0.10">&#9733;&#9733;</option>
+          <option value="0.15">&#9733;&#9733;&#9733;</option>
+          <option value="0.20">&#9733;&#9733;&#9733;&#9733;</option>
+          <option value="0.25">&#9733;&#9733;&#9733;&#9733;&#9733;</option>
+        </select>
+      <label for="user_people">How Many People? </label>
+        <input type="text" id="people" name="user_people" placeholder="Number Of People">
+          <button type="button" id="submit">Calculate!</button>
+          <button type="reset" id="reset">Reset</button>
+    </fieldset>
   </form>
       </section>
       <section id="tip-info"><section>

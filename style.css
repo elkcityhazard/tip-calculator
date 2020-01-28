@@ -1,5 +1,6 @@
 html ,body {
   background: #5bc0eb;
+  color: #000;
   margin: 0;
   padding: 0;
 }
@@ -8,4 +9,45 @@ html ,body {
   display: block;
   margin: 0;
   padding: 0;
+}
+
+#form {
+  background: #ddd389;
+  color: #000;
+  margin: 10px auto;
+  max-width: 600px;
+  min-width: 300px;
+  padding: 0;
+  width: 50%;
+}
+
+#form fieldset {
+  margin: 10px 20px 10px 20px;
+}
+}
+
+#form label {
+  display: block;
+  margin: 10px auto 10px 20px;
+  width: 200px;
+}
+
+#form input, select {
+  margin: 10px auto 10px 20px;
+  width: 200px;
+}
+
+#tip-info {
+  background: #fff;
+  border: .5px solid black;
+  color: #000;
+  margin: 10px auto;
+  max-width: 600px;
+  min-width: 300px;
+  padding: 0;
+  width: 50%;
+}
+
+#tip-info > p {
+  padding-left: 20px;
 }

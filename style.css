@@ -10,22 +10,24 @@ html ,body {
 
 .wrapper {
   display: block;
+  height: 100vh;
   margin: 0 auto;
   padding: 0;
   min-width: 300px;
   max-width: 500px;
+  width: 100vw;
 }
 
 #form {
   background: #ddd389;
   color: #000;
-  height: 50vh;
+  height: 100vh;
   margin: 10px auto;
-  max-width: 300px;
+  max-width: 500px;
   min-width: 300px;
   padding: 0;
   text-align: left;
-  width: 100%;
+  width: 100vw;
 }
 
 #form fieldset {
@@ -55,11 +57,11 @@ html ,body {
   background: #fff;
   border: .5px solid black;
   color: #000;
+  height: initial;
   margin: 10px auto;
-  max-width: 600px;
-  min-width: 300px;
+  max-width: 500px;
   padding: 0;
-  width: 50%;
+  width: 100vw;
 }
 
 #tip-info > p {
